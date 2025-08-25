@@ -8,16 +8,19 @@ import Contact from './pages/Contact.jsx'
 import Cart from './pages/Cart.jsx'
 import Login from './pages/Login.jsx'
 import PlaceOrder from './pages/PlaceOrder.jsx'
-import Order from './pages/Order.jsx'
+import Orders from './pages/Orders.jsx'
 import NavBar from './components/NavBar.jsx'
 import Footer from './components/Footer.jsx'
 import SearchBar from './components/SearchBar.jsx'
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 
 
 const App = () => {
   return (
     <div className='px-4 sm:px-[5vw] md:px-[7vw] lg:px-[9vw]'>
+      <ToastContainer />
       <NavBar />
       <SearchBar />
       <Routes>
@@ -29,7 +32,8 @@ const App = () => {
         <Route path='/cart' element={<Cart/>} />
         <Route path='/login' element={<Login/>} />
         <Route path='/place-order' element={<PlaceOrder/>} />
-        <Route path='/order/:orderId' element={<Order/>} />        
+        {/* <Route path='/orders/:orderId' element={<Orders />} />   */}
+        <Route path='/orders' element={<Orders />} />        
       </Routes>
       <Footer />
     </div>
