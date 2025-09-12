@@ -403,7 +403,7 @@ export const products = [
         price: 220,
         image: [p_img26],
         category: "Women",
-        subCategory: "Winterwear",
+        subCategory: "Topwear",
         sizes: ["S", "M", "L", "XL"],
         date: 1716639845448,
         bestseller: false
@@ -427,7 +427,7 @@ export const products = [
         price: 230,
         image: [p_img28],
         category: "Men",
-        subCategory: "Winterwear",
+        subCategory: "Topwear",
         sizes: ["S", "M", "L", "XL"],
         date: 1716642045448,
         bestseller: false
@@ -511,7 +511,7 @@ export const products = [
         price: 240,
         image: [p_img35],
         category: "Women",
-        subCategory: "Winterwear",
+        subCategory: "Topwear",
         sizes: ["S", "M", "L", "XL"],
         date: 1716649745448,
         bestseller: false
@@ -523,7 +523,7 @@ export const products = [
         price: 270,
         image: [p_img36],
         category: "Women",
-        subCategory: "Winterwear",
+        subCategory: "Topwear",
         sizes: ["S", "M", "L", "XL"],
         date: 1716650845448,
         bestseller: false
@@ -542,11 +542,11 @@ export const products = [
     },
     {
         _id: "aaabl",
-        name: "Men Round Neck Pure Cotton T-shirt",
+        name: "Kids Round Neck Pure Cotton T-shirt",
         description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
         price: 280,
         image: [p_img38],
-        category: "Men",
+        category: "kids",
         subCategory: "Topwear",
         sizes: ["S", "M", "L", "XL"],
         date: 1716653045448,
@@ -571,7 +571,7 @@ export const products = [
         price: 290,
         image: [p_img40],
         category: "Men",
-        subCategory: "Winterwear",
+        subCategory: "Topwear",
         sizes: ["S", "M", "L", "XL"],
         date: 1716655245448,
         bestseller: false
@@ -619,7 +619,7 @@ export const products = [
         price: 310,
         image: [p_img44],
         category: "Women",
-        subCategory: "Winterwear",
+        subCategory: "Topwear",
         sizes: ["S", "M", "L", "XL"],
         date: 1716659645448,
         bestseller: false
@@ -631,7 +631,7 @@ export const products = [
         price: 290,
         image: [p_img45],
         category: "Men",
-        subCategory: "Winterwear",
+        subCategory: "Topwear",
         sizes: ["S", "M", "L", "XL"],
         date: 1716660745448,
         bestseller: false
@@ -643,7 +643,7 @@ export const products = [
         price: 320,
         image: [p_img46],
         category: "Men",
-        subCategory: "Winterwear",
+        subCategory: "Topwear",
         sizes: ["S", "M", "L", "XL"],
         date: 1716661845448,
         bestseller: false
@@ -702,7 +702,7 @@ export const products = [
         price: 320,
         image: [p_img51],
         category: "Women",
-        subCategory: "Winterwear",
+        subCategory: "Middlewear",
         sizes: ["S", "M", "L", "XL"],
         date: 1716667345448,
         bestseller: false
